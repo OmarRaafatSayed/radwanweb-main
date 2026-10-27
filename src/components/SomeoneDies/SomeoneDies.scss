@@ -1,0 +1,205 @@
+.someone-dies-page-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8fafc;
+    padding-bottom: 80px;
+
+    .someone-dies-hero-section {
+        position: relative;
+        background: linear-gradient(135deg, var(--main-color, #0a2240) 0%, #06152a 100%);
+        padding-block: 160px 100px;
+        color: #ffffff;
+        overflow: hidden;
+
+        @media (max-width: 768px) {
+            padding-block: 130px 70px;
+        }
+
+        .hero-dots-pattern {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 24px 24px;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+
+        .someone-dies-hero-container {
+            max-width: 900px;
+            margin-inline: auto;
+            padding-inline: 20px;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+
+            .hero-text-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                .hero-badge {
+                    display: inline-block;
+                    padding: 6px 18px;
+                    border-radius: 30px;
+                    background: rgba(197, 160, 89, 0.15);
+                    border: 1px solid rgba(197, 160, 89, 0.3);
+                    color: var(--accent-gold, #c5a059);
+                    font-size: 13.5px;
+                    font-weight: 700;
+                    letter-spacing: 0.3px;
+                }
+
+                .hero-main-title {
+                    font-size: 38px;
+                    font-weight: 800;
+                    color: #ffffff;
+                    line-height: 1.25;
+                    margin: 0;
+
+                    @media (max-width: 768px) {
+                        font-size: 28px;
+                    }
+                }
+
+                .hero-subtitle {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: var(--accent-gold, #c5a059);
+                    margin: 0;
+
+                    @media (max-width: 768px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .hero-desc {
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.82);
+                    line-height: 1.65;
+                    margin: 0;
+                    max-width: 750px;
+
+                    @media (max-width: 768px) {
+                        font-size: 14.5px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* شبكة البوكسات */
+    .cases-grid-section {
+        margin-top: -30px;
+        position: relative;
+        z-index: 10;
+
+        .cases-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+
+            @media (max-width: 1024px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media (max-width: 640px) {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .case-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 18px;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                transform: translateY(-5px);
+                border-color: var(--accent-gold, #c5a059);
+                box-shadow: 0 12px 30px rgba(10, 34, 64, 0.08);
+
+                .card-top .icon-wrapper {
+                    background: var(--main-color, #0a2240);
+                    color: var(--accent-gold, #c5a059);
+                }
+
+                .card-footer .btn-details {
+                    color: var(--main-color, #0a2240);
+
+                    svg {
+                        transform: translateX(-4px);
+
+                        html[lang="en"] &,
+                        html[lang="ru"] &,
+                        html[lang="fr"] &,
+                        html[lang="es"] & {
+                            transform: translateX(4px);
+                        }
+                    }
+                }
+            }
+
+            .card-top {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .icon-wrapper {
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 14px;
+                    background: rgba(10, 34, 64, 0.05);
+                    color: var(--main-color, #0a2240);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                }
+
+                h2 {
+                    font-size: 19px;
+                    font-weight: 800;
+                    color: var(--main-color, #0a2240);
+                    margin: 0;
+                    line-height: 1.4;
+                }
+            }
+
+            .card-desc {
+                font-size: 14px;
+                color: #64748b;
+                line-height: 1.6;
+                margin: 0;
+                flex-grow: 1;
+            }
+
+            .card-footer {
+                padding-top: 16px;
+                border-top: 1px dashed #e2e8f0;
+
+                .btn-details {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: var(--accent-gold, #c5a059);
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+
+                    svg {
+                        transition: transform 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+}

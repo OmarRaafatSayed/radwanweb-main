@@ -1,0 +1,355 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "someone-dies": "When Someone Dies",
+    "blog": "Blog & News",
+    "contact": "Contact Us",
+    "requestService": "Request Service",
+    "caskets": "Caskets",
+    "store": "Store",
+    "storeCategories": {
+      "caskets": "Caskets",
+      "urns": "Cremation Urns"
+    }
+  },
+  "Hero": {
+    "ctaRequest": "Request Service Now",
+    "ctaContact": "Contact Us"
+  },
+  "About": {
+    "learnMore": "Learn More"
+  },
+  "Services": {
+    "badge": "Our Services",
+    "title": "Integrated Services for Your Peace of Mind",
+    "learnMore": "Learn More"
+  },
+  "Countries": {
+    "title": "International Cargo & Support Network",
+    "desc": "We offer our services in many countries around the world",
+    "diplomaticBadge": "Diplomatic Clearance",
+    "passSubtext": "Official repatriation & transport clearances coordinated directly with the embassy",
+    "authorizedStatus": "100% Directly Authorized"
+  },
+  "WhyRadwan": {
+    "title": "Why Choose Radwan?"
+  },
+  "Testimonials": {
+    "title": "Client Testimonials"
+  },
+  "Partners": {
+    "title": "Success Partners"
+  },
+  "CTA": {
+    "title": "Do You Need Deceased Transportation?",
+    "description": "Our dedicated, trained team is available 24/7 to guide you and finalize all legal and logistical procedures as quickly and with utmost respect.",
+    "orderButton": "Request Instant Service",
+    "contactButton": "Contact Us"
+  },
+  "Footer": {
+    "brandDescription": "Radwan Company offers deceased transportation services with the highest efficiency, completing all local and international procedures with utmost dignity and respect.",
+    "columns": {
+      "quickLinks": "Quick Links",
+      "ourServices": "Our Services",
+      "contactInfo": "Contact Info"
+    },
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Our Services",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "servicesList": {
+      "repatriation": "Deceased Repatriation",
+      "permits": "Issuing Permits",
+      "embassy": "Embassy Coordination",
+      "airCargo": "Air Cargo Logistics",
+      "washing": "Washing & Shrouding",
+      "graves": "Cemetery Booking"
+    },
+    "contact": {
+      "phoneLabel": "Direct Line",
+      "emailLabel": "Email Address",
+      "addressLabel": "Head Office",
+      "addressValue": "9 Nabil El-Wakkad St, 2nd Floor, Apt 23, Next to the Embassy of Kuwait & Behind the Embassy of South Korea"
+    },
+    "copyright": "Radwan Company. All rights reserved.",
+    "developedBy": "Proudly Developed By"
+  },
+  "Timeline": {
+    "badge": "Our Journey",
+    "mainTitle": "Our Story & Impact",
+    "description": "A continuous professional and humanitarian commitment to serving families in their hardest moments."
+  },
+  "Pillars": {
+    "badge": "Guiding Principles",
+    "mainTitle": "Our Three Pillars",
+    "description": "We are driven by our deep ethical and humanitarian responsibility to provide support and dignity to families in difficult times."
+  },
+  "Accreditations": {
+    "badge": "Trust & Security",
+    "mainTitle": "Certificates & Official Accreditations",
+    "description": "We strictly adhere to the highest legal and professional standards to ensure all procedures are managed smoothly and officially."
+  },
+  "CtaSection": {
+    "badge": "24/7 Support Available",
+    "mainTitle": "We Are by Your Side in Your Hardest Moments",
+    "description": "Do not hesitate to reach out anytime. Our team is fully prepared to guide you and handle all official repatriation and preparation procedures with dignity.",
+    "callNow": "Call Us Now",
+    "requestService": "Request Service"
+  },
+  "NotFound": {
+    "badge": "Error 404 - Page Not Found",
+    "title": "Oops! The page you are looking for is unavailable",
+    "description": "The page might have been removed, had its name changed, or is temporarily unavailable. You can return to home or explore our services.",
+    "homeButton": "Back to Home",
+    "servicesButton": "Explore Services"
+  },
+  "ServicesHero": {
+    "badge": "Our Services",
+    "title": "International Funeral & Repatriation Care Services",
+    "description": "Providing a comprehensive range of specialized services to ease every arrangement with dignity, respect, and professional international care."
+  },
+  "ServicesGrid": {
+    "badge": "Our Service Portfolio",
+    "title": "Comprehensive Solutions with Dignity",
+    "description": "Explore our full range of funeral and repatriation services handled with professional international care.",
+    "viewDetails": "Service Details"
+  },
+  "ServicesCTA": {
+    "title": "Need Consultation or an Unlisted Custom Service?",
+    "description": "Our specialized team is available 24/7 to answer all your inquiries and tailor special arrangements with speed and care.",
+    "whatsappButton": "Contact via WhatsApp",
+    "requestButton": "Request Special Service"
+  },
+  "BlogHero": {
+    "badge": "Blog & News",
+    "title": "Articles and Tips to Guide You Every Step",
+    "description": "Your comprehensive guide covering international deceased repatriation, legal permits, certified casket provisions, and all associated logistical services."
+  },
+  "ArticlesGrid": {
+    "latestArticlesTitle": "Latest Articles & Guides",
+    "latestArticlesDesc": "Browse our latest comprehensive articles and guides regarding deceased transport and services.",
+    "readMore": "Read Article",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "CategoriesWidget": {
+    "title": "Article Categories",
+    "all": "All",
+    "showMore": "Show more"
+  },
+  "NewsletterWidget": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest articles, legal guides, and service updates directly to your inbox.",
+    "inputPlaceholder": "Enter your email address",
+    "subscribeButton": "Subscribe Now",
+    "loading": "Subscribing...",
+    "successMessage": "Successfully subscribed! Thank you."
+  },
+  "BlogCTA": {
+    "title": "Need Urgent Help with Repatriation or Consultation?",
+    "description": "Our specialized team is available 24/7 to assist you with all official procedures, air freight, and casket preparations immediately.",
+    "whatsappButton": "Contact Us Immediately",
+    "requestButton": "Request Custom Service"
+  },
+  "FAQHero": {
+    "badge": "Frequently Asked Questions",
+    "title": "Clear Answers to All Your Inquiries",
+    "description": "We gathered the most important questions and answers regarding international repatriation to provide full clarity and peace of mind."
+  },
+  "ContactHero": {
+    "badge": "Contact Us",
+    "title": "We Are Here to Serve and Support You 24/7",
+    "description": "Our specialized team is available round the clock to answer all your inquiries and streamline repatriation procedures with dignity and care."
+  },
+  "ContactContent": {
+    "formTitle": "Send Us a Message",
+    "formSubtitle": "Fill out the form and our specialized team will contact you as soon as possible.",
+    "labelFullName": "Full Name",
+    "placeholderFullName": "Enter your full name",
+    "labelPhone": "Phone Number",
+    "placeholderPhone": "Enter phone number with country code",
+    "labelEmail": "Email Address",
+    "placeholderEmail": "example@domain.com",
+    "labelSubject": "Subject",
+    "placeholderSubject": "Enter message subject",
+    "labelMessage": "Message",
+    "placeholderMessage": "Write your inquiry or request details here...",
+    "submitButton": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent Successfully!",
+    "successDesc": "Thank you for contacting us. Our team has received your message and will respond promptly.",
+    "sendAnotherMessage": "Send Another Message",
+    "phoneLabel": "Call Us",
+    "whatsappLabel": "WhatsApp 24/7",
+    "emailLabel": "Email Us",
+    "addressLabel": "Headquarters",
+    "addressValue": "Cairo - Arab Republic of Egypt",
+    "branchesTitle": "Our Branches & Locations",
+    "viewOnMap": "View location on map",
+    "branches": {
+      "mainBranch": {
+        "title": "Main Branch",
+        "address": "9 Nabil El-Wakkad St, 2nd Floor, Apt 23, Next to the Embassy of Kuwait & Behind Embassy of South Korea"
+      },
+      "secondBranch": {
+        "title": "Second Branch",
+        "address": "1 Othman Agha St, Sayeda Zeinab, Behind the Forensic Medicine Authority"
+      },
+      "thirdBranch": {
+        "title": "Third Branch",
+        "address": "9 El-Obour Buildings, 3rd Floor, Apt 8, Salah Salem Road"
+      }
+    }
+  },
+  "ContactCTA": {
+    "title": "Do You Need Immediate Assistance or Urgent Response?",
+    "description": "Our team in Egypt is available 24/7 to handle repatriation notices, shipping logistics, and permits right away.",
+    "whatsappButton": "Urgent WhatsApp Contact",
+    "servicesButton": "Explore Our Services"
+  },
+  "CountryHero": {
+    "titlePrefix": "Repatriation & Funeral Services in",
+    "descriptionPrefix": "Providing complete deceased repatriation and transport services to and from",
+    "descriptionSuffix": "with highest quality standards and direct embassy coordination.",
+    "stat1Title": "Full Coverage",
+    "stat1Value": "All cities & airports in",
+    "stat2Title": "Legal Compliance",
+    "stat2Value": "100% Certified Permits",
+    "stat3Title": "Execution Speed",
+    "stat3Value": "Shipping completed in 24 - 48 hrs"
+  },
+  "CountryOverview": {
+    "badge": "Overview",
+    "titlePrefix": "About Our Certified Services in",
+    "descPrefix": "We provide all necessary services for international deceased repatriation to and from",
+    "descSuffix": "starting from issuing official permits and completing legal procedures, through embassy and airport coordination, to final reception and delivery.",
+    "feat1Title": "Full Legal Compliance",
+    "feat1Desc": "Adhering to local & international laws",
+    "feat2Title": "24/7 Round-the-Clock Support",
+    "feat2Desc": "Emergency team available 24/7",
+    "feat3Title": "Specialized Team",
+    "feat3Desc": "Fluent in Arabic and foreign languages",
+    "feat4Title": "Extensive Experience",
+    "feat4Desc": "Full coordination with consulates"
+  },
+  "CountryServicesGrid": {
+    "badge": "Available Services",
+    "certifiedBadge": "Officially Certified",
+    "titlePrefix": "Repatriation & Shipping Services in",
+    "descPrefix": "Comprehensive services provided to streamline repatriation procedures with",
+    "requestService": "Service Details",
+    "loadMore": "Load More Services"
+  },
+  "CountryCTA": {
+    "titlePrefix": "Need Urgent Repatriation Assistance in",
+    "descPrefix": "Contact us immediately to begin transport procedures to and from",
+    "descSuffix": "with our 24/7 team guiding you step by step.",
+    "whatsappButton": "Contact via WhatsApp",
+    "contactButton": "Request Custom Service"
+  },
+  "ServiceDetail": {
+    "home": "Home",
+    "breadcrumbServices": "Services",
+    "badge": "Service Details",
+    "featuresTitle": "Key Service Features",
+    "docsTitle": "Official Documents & Requirements",
+    "availabilityLabel": "Response & Service Hours",
+    "availabilityValue": "24/7 Emergency Support",
+    "guaranteeLabel": "Compliance & Accuracy",
+    "guaranteeValue": "International Standards Compliant",
+    "requestBtn": "Request This Service Now",
+    "whatsappBtn": "Inquire via WhatsApp",
+    "quickHelpTitle": "Need Immediate Help?",
+    "quickHelpDesc": "Our team is available 24/7 to offer immediate support and answer your questions."
+  },
+  "CasketsPage": {
+    "heroBadge": "Caskets & Coffin Catalog",
+    "heroTitle": "Repatriation Caskets & Hermetic Coffin Solutions",
+    "heroSubtitle": "Supplying premium zinc-lined, heat-sealed wooden caskets fully compliant with IATA flight regulations for international repatriation and dignified local transport.",
+    "trustIata": "IATA Flight Standards Compliant",
+    "trustZinc": "100% Hermetic Zinc Sealed",
+    "trustShipping": "Airport & Governorate Delivery",
+    "filterAll": "All",
+    "filterWithPrice": "Priced",
+    "filterQuote": "Quote Needed",
+    "searchPlaceholder": "Search by casket name or wood type...",
+    "woodLabel": "Wood Type",
+    "liningLabel": "Inner Lining",
+    "requestQuoteBtn": "Request Quote",
+    "viewDetailsBtn": "View Specifications",
+    "noProductsFound": "No caskets match your search criteria.",
+    "ctaTitle": "Need Custom Dimensions or Urgent Preparation?",
+    "ctaDesc": "Our team is available 24/7 to fulfill custom sizes and immediate international shipping requirements.",
+    "ctaButton": "Contact Us Immediately"
+  },
+  "CasketDetail": {
+    "breadcrumbCaskets": "Caskets Catalog",
+    "woodLabel": "Primary Wood Type",
+    "liningLabel": "Inner Lining Type",
+    "capacityLabel": "Weight Capacity",
+    "iataBadge": "Fully IATA Flight Compliant",
+    "availableColors": "Available Colors",
+    "availableSizes": "Available Dimensions",
+    "specificationsTitle": "Technical Specifications",
+    "descriptionTitle": "Detailed Description & Standards",
+    "requestBtn": "Order This Casket Now",
+    "requestQuoteBtn": "Request a Quote",
+    "whatsappBtn": "Quick WhatsApp Inquiry",
+    "quoteNotice": "Final price depends on selected size and cargo destination."
+  },
+  "BlogDetail": {
+    "breadcrumbBlog": "Blog & Articles",
+    "shareArticle": "Share Article",
+    "relatedTitle": "Related Articles",
+    "helpTitle": "Need Immediate Repatriation Guidance?",
+    "helpDesc": "Our team is available 24/7 to answer your queries and issue required permits.",
+    "contactBtn": "Contact Us Now"
+  },
+  "SomeoneDiesHero": {
+    "badge": "Guidance & Support Guide",
+    "title": "When Someone Dies",
+    "subtitle": "Clear steps and full support in difficult times",
+    "description": "We guide you step-by-step depending on where the death occurred, providing compassionate and trusted professional assistance.",
+    "btnText": "View Guidance Steps"
+  },
+  "UrnsPage": {
+    "heroBadge": "Cremation Urns",
+    "heroTitle": "Premium Memorial Cremation Urns",
+    "heroSubtitle": "Offering a diverse collection of memorial urns crafted from marble, fine hardwoods, and metals, fully certified for international transport.",
+    "trustAirportCompliant": "Flight & Travel Approved",
+    "trustSealedCertified": "Sealed & Officially Certified",
+    "trustPremiumMaterials": "Premium Quality & Fine Marble",
+    "searchPlaceholder": "Search urns by name...",
+    "filterAll": "All Urns",
+    "filterWithPrice": "With Price",
+    "filterQuote": "Request Quote",
+    "requestQuoteBtn": "Request Quote",
+    "viewDetailsBtn": "View Details",
+    "noProductsFound": "No urns found matching your search.",
+    "ctaTitle": "Need guidance choosing the right cremation urn?",
+    "ctaDesc": "Our team is available 24/7 to assist with your selection and provide certified sealing documentation for airline travel.",
+    "ctaButton": "Call Us Now"
+  },
+  "UrnDetail": {
+    "breadcrumbUrns": "Cremation Urns",
+    "descriptionTitle": "Description & Features",
+    "specificationsTitle": "Certified Specifications",
+    "requestQuoteBtn": "Request Quote",
+    "airportBadge": "Approved for flight and international transport",
+    "flightApproved": "Flight Approved",
+    "materialLabel": "Material",
+    "capacityLabel": "Capacity",
+    "sealingLabel": "Sealing Type",
+    "availableColors": "Available Finishes",
+    "dimensionsTitle": "Dimensions",
+    "whatsappBtn": "Inquire via WhatsApp",
+    "requestBtn": "Order Urn Now",
+    "quoteNotice": "Urns are fully certified and compliant with international aviation regulations."
+  }
+}

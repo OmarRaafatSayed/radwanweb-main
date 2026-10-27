@@ -1,0 +1,245 @@
+.accreditations-section {
+    position: relative;
+    background-color: var(--bg-site);
+    padding-block: 85px 75px;
+    overflow: hidden;
+    z-index: 1;
+
+    @media (max-width: 991px) {
+        padding-block: 65px 55px;
+    }
+
+    @media (max-width: 768px) {
+        padding-block: 50px 45px;
+    }
+
+    .accreditations-dots-bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(rgba(10, 34, 64, 0.02) 1.2px, transparent 1.2px);
+        background-size: 24px 24px;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .accreditations-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-inline: auto;
+        padding-inline: 24px;
+        position: relative;
+        z-index: 5;
+
+        @media (max-width: 768px) {
+            padding-inline: 16px;
+        }
+    }
+
+    .accreditations-header {
+        text-align: center;
+        max-width: 650px;
+        margin-inline: auto;
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+
+        @media (max-width: 768px) {
+            margin-bottom: 25px;
+        }
+
+        .accreditations-badge {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background-color: rgba(244, 179, 90, 0.06);
+            padding: 6px 18px;
+            border-radius: 20px;
+            border: 1px solid rgba(244, 179, 90, 0.25);
+            display: inline-block;
+        }
+
+        .accreditations-main-title {
+            font-size: 34px;
+            font-weight: 700;
+            color: var(--text-main);
+            line-height: 1.3;
+
+            @media (max-width: 768px) {
+                font-size: 24px;
+            }
+        }
+
+        .accreditations-desc {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+    }
+
+    .accreditations-slider-wrapper {
+        width: 100%;
+        position: relative;
+        padding-inline: 40px;
+
+        @media (max-width: 1023px) {
+            padding-inline: 0;
+        }
+
+        .accreditations-swiper {
+            padding-block: 20px 50px;
+
+            @media (max-width: 768px) {
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+    .accreditation-card {
+        background: var(--bg-surface);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: var(--transition-smooth);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.01);
+        height: 100%;
+
+        @media (max-width: 991px) {
+            padding: 30px 20px;
+        }
+
+        &:hover {
+            border-color: rgba(244, 179, 90, 0.4);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(10, 34, 64, 0.06);
+
+            .accreditation-icon-wrapper {
+                background-color: var(--accent-gold);
+                color: var(--main-color);
+                transform: scale(1.05);
+            }
+        }
+
+        .accreditation-icon-wrapper {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: var(--bg-site);
+            color: var(--accent-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            transition: var(--transition-smooth);
+            border: 1px solid var(--border-color);
+        }
+
+        .accreditation-card-title {
+            font-size: 19px;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 14px;
+        }
+
+        .accreditation-card-desc {
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+    }
+
+    .slider-nav-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-100%);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: var(--bg-surface);
+        border: 1px solid var(--border-color);
+        color: var(--text-main);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+        transition: var(--transition-smooth);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+        &:hover {
+            border-color: var(--accent-gold);
+            background-color: var(--accent-gold);
+            color: var(--main-color);
+            box-shadow: 0 6px 15px rgba(244, 179, 90, 0.25);
+        }
+
+        &.swiper-button-disabled {
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        @media (max-width: 1023px) {
+            display: none;
+        }
+
+        html[dir="rtl"] & {
+            &.prev-btn {
+                right: -10px;
+            }
+
+            &.next-btn {
+                left: -10px;
+            }
+        }
+
+        html[dir="ltr"] & {
+            &.prev-btn {
+                left: -10px;
+
+                .nav-arrow-icon {
+                    transform: rotate(180deg);
+                }
+            }
+
+            &.next-btn {
+                right: -10px;
+
+                .nav-arrow-icon {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+
+    .swiper-pagination {
+        bottom: 10px !important;
+
+        @media (min-width: 1024px) {
+            display: none;
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--text-muted);
+            opacity: 0.3;
+            width: 8px;
+            height: 8px;
+            transition: var(--transition-smooth);
+
+            &.swiper-pagination-bullet-active {
+                background: var(--accent-gold);
+                opacity: 1;
+                width: 24px;
+                border-radius: 4px;
+            }
+        }
+    }
+}

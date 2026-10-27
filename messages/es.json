@@ -1,0 +1,355 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Nuestros servicios",
+    "someone-dies": "Cuando alguien muere",
+    "blog": "Blog y Noticias",
+    "contact": "Contacto",
+    "requestService": "Solicitar servicio",
+    "caskets": "Ataúdes",
+    "store": "Tienda",
+    "storeCategories": {
+      "caskets": "Ataúdes",
+      "urns": "Urnas de cremación"
+    }
+  },
+  "Hero": {
+    "ctaRequest": "Solicitar servicio ahora",
+    "ctaContact": "Contáctenos"
+  },
+  "About": {
+    "learnMore": "Saber más"
+  },
+  "Services": {
+    "badge": "Nuestros Servicios",
+    "title": "Servicios integrados para su tranquilidad",
+    "learnMore": "Saber más"
+  },
+  "Countries": {
+    "title": "Red Internacional de Repatriación",
+    "desc": "Ofrecemos nuestros servicios en muchos países de todo el mundo",
+    "diplomaticBadge": "Despacho Diplomático",
+    "passSubtext": "Permisos oficiales de repatriación y transporte coordinados con la embajada",
+    "authorizedStatus": "Autorizado y Directo al 100%"
+  },
+  "WhyRadwan": {
+    "title": "¿Por qué elegir Radwan?"
+  },
+  "Testimonials": {
+    "title": "Testimonios de Clientes"
+  },
+  "Partners": {
+    "title": "Socios de Éxito"
+  },
+  "CTA": {
+    "title": "¿Necesita Traslado de un Fallecido?",
+    "description": "Nuestro equipo capacitado está disponible las 24 horas para guiarlo y finalizar todos los trámites legales y logísticos de la manera más rápida y respetuosa.",
+    "orderButton": "Solicitar Servicio Inmediato",
+    "contactButton": "Contáctenos"
+  },
+  "Footer": {
+    "brandDescription": "La compañía Radwan ofrece servicios de traslado de fallecidos con la máxima eficiencia, completando todos los trámites locales e internacionales con el mayor respeto.",
+    "columns": {
+      "quickLinks": "Enlaces Rápidos",
+      "ourServices": "Servicios",
+      "contactInfo": "Contacto"
+    },
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "faq": "Preguntas Frecuentes",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    },
+    "servicesList": {
+      "repatriation": "Repatriación de Fallecidos",
+      "permits": "Emisión de Permisos",
+      "embassy": "Coordinación Consular",
+      "airCargo": "Carga Aérea",
+      "washing": "Lavado y Mortaja",
+      "graves": "Reserva de Cementerios"
+    },
+    "contact": {
+      "phoneLabel": "Línea Directa",
+      "emailLabel": "Correo Electrónico",
+      "addressLabel": "Oficina Central",
+      "addressValue": "Calle Nabil El-Wakkad 9, 2.º piso, Apt 23, junto a la Embajada de Kuwait y detrás de la Embajada de Corea del Sur"
+    },
+    "copyright": "Compañía Radwan. Todos los derechos reservados.",
+    "developedBy": "Orgullosamente desarrollado por"
+  },
+  "Timeline": {
+    "badge": "Nuestro Viaje",
+    "mainTitle": "Nuestra Historia e Impacto",
+    "description": "Un compromiso profesional y humanitario constante para acompañar a las familias en sus momentos de mayor necesidad."
+  },
+  "Pillars": {
+    "badge": "Principios Guías",
+    "mainTitle": "Nuestros Tres Pilares",
+    "description": "Nos impulsa una profunda responsabilidad ética y humanitaria para brindar apoyo y dignidad a las familias en sus momentos de dolor."
+  },
+  "Accreditations": {
+    "badge": "Confianza y Garantía",
+    "mainTitle": "Certificaciones y Acreditaciones Oficiales",
+    "description": "Cumplimos estrictamente con los más altos estándares legales y profesionales para asegurar que todos los trámites se realicen sin contratiempos."
+  },
+  "CtaSection": {
+    "badge": "Soporte Continuo 24/7",
+    "mainTitle": "Estamos a su lado en los momentos más difíciles",
+    "description": "No dude en contactarnos a cualquier hora. Nuestro equipo está listo para asesorarle y gestionar todos los trámites legales de traslado con el máximo respeto.",
+    "callNow": "Llamar Ahora",
+    "requestService": "Solicitar Servicio"
+  },
+  "NotFound": {
+    "badge": "Error 404 - Página no encontrada",
+    "title": "¡Vaya! La página que buscas no está disponible",
+    "description": "Es posible que la página haya sido eliminada, haya cambiado de nombre o no esté disponible temporalmente. Puedes volver al inicio o explorar nuestros servicios.",
+    "homeButton": "Volver al Inicio",
+    "servicesButton": "Explorar Servicios"
+  },
+  "ServicesHero": {
+    "badge": "Nuestros Servicios",
+    "title": "Servicios de Repatriación y Cuidado Funerario Internacional",
+    "description": "Ofrecemos una gama completa de servicios especializados para facilitar cada trámite con la máxima dignidad, respeto y profesionalismo."
+  },
+  "ServicesGrid": {
+    "badge": "Nuestras Prestaciones",
+    "title": "Soluciones Integrales con Respeto y Dignidad",
+    "description": "Explore nuestra lista completa de servicios para facilitar trámites, traslados y cuidados con profesionalismo.",
+    "viewDetails": "Detalles del servicio"
+  },
+  "ServicesCTA": {
+    "title": "¿Necesita asesoramiento o un servicio personalizado no incluido?",
+    "description": "Nuestro equipo está disponible 24/7 para responder sus dudas y coordinar arreglos especiales con rapidez.",
+    "whatsappButton": "Contactar por WhatsApp",
+    "requestButton": "Solicitar servicio especial"
+  },
+  "BlogHero": {
+    "badge": "Blog y Noticias",
+    "title": "Artículos y Consejos para Guiarle en Cada Paso",
+    "description": "Su guía integral sobre trámites de repatriación internacional, permisos legales, provisión de ataúdes homologados y todos los servicios logísticos necesarios."
+  },
+  "ArticlesGrid": {
+    "latestArticlesTitle": "Últimos Artículos y Guías",
+    "latestArticlesDesc": "Explore nuestros últimos artículos detallados sobre el traslado y servicios funerarios.",
+    "readMore": "Leer artículo",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "CategoriesWidget": {
+    "title": "Categorías de artículos",
+    "all": "Todas",
+    "showMore": "Ver más"
+  },
+  "NewsletterWidget": {
+    "title": "Suscríbase a nuestro Boletín",
+    "description": "Reciba los últimos artículos, guías legales y novedades directamente en su correo electrónico.",
+    "inputPlaceholder": "Ingrese su correo electrónico",
+    "subscribeButton": "Suscribirse Ahora",
+    "loading": "Suscribiendo...",
+    "successMessage": "¡Suscripción exitosa! Gracias."
+  },
+  "BlogCTA": {
+    "title": "¿Necesita ayuda urgente con una repatriación o consulta?",
+    "description": "Nuestro equipo especializado está disponible 24/7 para ayudarle con todos los trámites oficiales, transporte aéreo y preparación del ataúd.",
+    "whatsappButton": "Contáctenos inmediatamente",
+    "requestButton": "Solicitar servicio personalizado"
+  },
+  "FAQHero": {
+    "badge": "Preguntas Frecuentes",
+    "title": "Respuestas Claras a Todas sus Dudas",
+    "description": "Hemos reunido las preguntas más importantes sobre repatriación internacional para brindarle total claridad y tranquilidad."
+  },
+  "ContactHero": {
+    "badge": "Contáctenos",
+    "title": "Estamos Aquí para Servirle y Apoyarle 24/7",
+    "description": "Nuestro equipo especializado está disponible las 24 horas para responder a sus consultas y agilizar los trámites de repatriación con dignidad."
+  },
+  "ContactContent": {
+    "formTitle": "Envíenos un mensaje",
+    "formSubtitle": "Complete el formulario y nuestro equipo especializado se pondrá en contacto lo antes posible.",
+    "labelFullName": "Nombre completo",
+    "placeholderFullName": "Ingrese su nombre completo",
+    "labelPhone": "Número de teléfono",
+    "placeholderPhone": "Ingrese el teléfono con código de país",
+    "labelEmail": "Correo electrónico",
+    "placeholderEmail": "example@domain.com",
+    "labelSubject": "Asunto",
+    "placeholderSubject": "Ingrese el asunto del mensaje",
+    "labelMessage": "Mensaje",
+    "placeholderMessage": "Escriba su consulta o detalles aquí...",
+    "submitButton": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje enviado con éxito!",
+    "successDesc": "Gracias por contactarnos. Nuestro equipo ha recibido su mensaje y responderá a la brevedad.",
+    "sendAnotherMessage": "Enviar otro mensaje",
+    "phoneLabel": "Llámenos",
+    "whatsappLabel": "WhatsApp 24/7",
+    "emailLabel": "Correo electrónico",
+    "addressLabel": "Oficina principal",
+    "addressValue": "El Cairo - República Árabe de Egipto",
+    "branchesTitle": "Nuestras Sucursales y Ubicaciones",
+    "viewOnMap": "Ver ubicación en el mapa",
+    "branches": {
+      "mainBranch": {
+        "title": "Sucursal Principal",
+        "address": "Calle Nabil El-Wakkad 9, 2.º piso, Apt 23, junto a la Embajada de Kuwait y detrás de la Embajada de Corea del Sur"
+      },
+      "secondBranch": {
+        "title": "Segunda Sucursal",
+        "address": "Calle Othman Agha 1, Sayeda Zeinab, detrás del Instituto de Medicina Legal"
+      },
+      "thirdBranch": {
+        "title": "Tercera Sucursal",
+        "address": "Edificios El-Obour 9, 3.º piso, Apt 8, Carretera Salah Salem"
+      }
+    }
+  },
+  "ContactCTA": {
+    "title": "¿Necesita asistencia inmediata o respuesta urgente?",
+    "description": "Nuestro equipo en Egipto está disponible 24/7 para gestionar notificaciones de repatriación, logística y permisos al instante.",
+    "whatsappButton": "Contacto Urgente por WhatsApp",
+    "servicesButton": "Explorar Nuestros Servicios"
+  },
+  "CountryHero": {
+    "titlePrefix": "Servicios de Repatriación y Preparación en",
+    "descriptionPrefix": "Ofrecemos servicios completos de traslado de fallecidos desde y hacia",
+    "descriptionSuffix": "con los más altos estándares de calidad y coordinación consular directa.",
+    "stat1Title": "Cobertura Total",
+    "stat1Value": "Todas las ciudades y aeropuertos en",
+    "stat2Title": "Cumplimiento Legal",
+    "stat2Value": "Permisos 100% Certificados",
+    "stat3Title": "Rapidez de Ejecución",
+    "stat3Value": "Envío completado en 24 - 48 hs"
+  },
+  "CountryOverview": {
+    "badge": "Resumen",
+    "titlePrefix": "Sobre Nuestros Servicios Certificados en",
+    "descPrefix": "Ofrecemos todos los servicios necesarios para la repatriación internacional desde y hacia",
+    "descSuffix": "desde la obtención de permisos oficiales y trámites legales, pasando por la coordinación con embajadas y aeropuertos, hasta la recepción final.",
+    "feat1Title": "Cumplimiento Legal Total",
+    "feat1Desc": "Conforme a las leyes locales e internacionales",
+    "feat2Title": "Soporte Continuo 24/7",
+    "feat2Desc": "Equipo de emergencia disponible 24/7",
+    "feat3Title": "Equipo Especializado",
+    "feat3Desc": "Fluido en árabe e idiomas extranjeros",
+    "feat4Title": "Amplia Experiencia",
+    "feat4Desc": "Coordinación completa con consulados"
+  },
+  "CountryServicesGrid": {
+    "badge": "Servicios Disponibles",
+    "certifiedBadge": "Certificado Oficialmente",
+    "titlePrefix": "Todos los Servicios de Traslado en",
+    "descPrefix": "Lista completa de servicios integrales para agilizar la repatriación con",
+    "requestService": "Detalles del servicio",
+    "loadMore": "Cargar más servicios"
+  },
+  "CountryCTA": {
+    "titlePrefix": "¿Necesita asistencia urgente de repatriación en",
+    "descPrefix": "Contáctenos de inmediato para iniciar los trámites desde y hacia",
+    "descSuffix": "nuestro equipo disponible 24/7 le guiará paso a paso.",
+    "whatsappButton": "Contactar por WhatsApp",
+    "contactButton": "Solicitar servicio"
+  },
+  "ServiceDetail": {
+    "home": "Inicio",
+    "breadcrumbServices": "Servicios",
+    "badge": "Detalles del Servicio",
+    "featuresTitle": "Características Principales",
+    "docsTitle": "Documentos y Requisitos Oficiales",
+    "availabilityLabel": "Disponibilidad y Respuesta",
+    "availabilityValue": "Urgencias 24/7",
+    "guaranteeLabel": "Cumplimiento y Precisión",
+    "guaranteeValue": "Conforme a Normas Internacionales",
+    "requestBtn": "Solicitar este servicio",
+    "whatsappBtn": "Consulta por WhatsApp",
+    "quickHelpTitle": "¿Necesita ayuda inmediata?",
+    "quickHelpDesc": "Nuestro equipo está disponible 24/7 para ofrecerle asistencia e información inmediata."
+  },
+  "CasketsPage": {
+    "heroBadge": "Catálogo de Ataúdes y Sarcófagos",
+    "heroTitle": "Ataúdes de Repatriación y Soluciones Herméticas",
+    "heroSubtitle": "Suministro de ataúdes de madera sellados con zinc conformes a la normativa de la aviación IATA para el traslado internacional y local.",
+    "trustIata": "Normativa Aérea IATA",
+    "trustZinc": "Zinc 100% Hermético",
+    "trustShipping": "Entrega en Aeropuertos y Provincias",
+    "filterAll": "Todos",
+    "filterWithPrice": "Con Precio",
+    "filterQuote": "Bajo Pedido",
+    "searchPlaceholder": "Buscar por nombre o tipo de madera...",
+    "woodLabel": "Tipo de Madera",
+    "liningLabel": "Forro Interior",
+    "requestQuoteBtn": "Solicitar Presupuesto",
+    "viewDetailsBtn": "Ver Especificaciones",
+    "noProductsFound": "No se encontraron productos coincidentes.",
+    "ctaTitle": "¿Necesita medidas especiales o preparación urgente?",
+    "ctaDesc": "Nuestro equipo está disponible 24/7 para responder a solicitudes especiales y traslados inmediatos.",
+    "ctaButton": "Contactar Inmediatamente"
+  },
+  "CasketDetail": {
+    "breadcrumbCaskets": "Catálogo de ataúdes",
+    "woodLabel": "Tipo de madera principal",
+    "liningLabel": "Tipo de forro interior",
+    "capacityLabel": "Capacidad máxima de carga",
+    "iataBadge": "Conforme a la normativa aérea IATA",
+    "requestQuoteBtn": "Solicitar presupuesto",
+    "availableColors": "Colores disponibles",
+    "availableSizes": "Dimensiones disponibles",
+    "specificationsTitle": "Especificaciones técnicas",
+    "descriptionTitle": "Descripción detallada y normas",
+    "requestBtn": "Solicitar este ataúd",
+    "whatsappBtn": "Consulta rápida por WhatsApp",
+    "quoteNotice": "El precio final depende del tamaño y el destino de carga."
+  },
+  "BlogDetail": {
+    "breadcrumbBlog": "Blog y Artículos",
+    "shareArticle": "Compartir artículo",
+    "relatedTitle": "Artículos relacionados",
+    "helpTitle": "¿Necesita asesoramiento inmediato sobre repatriación?",
+    "helpDesc": "Nuestro equipo está disponible 24/7 para responder a sus dudas.",
+    "contactBtn": "Contactar ahora"
+  },
+  "SomeoneDiesHero": {
+    "badge": "Guía de orientación y apoyo",
+    "title": "Cuando alguien muere",
+    "subtitle": "Pasos claros y apoyo integral en momentos difíciles",
+    "description": "Le guiamos paso a paso según el lugar del fallecimiento, ofreciéndole asistencia profesional y de confianza.",
+    "btnText": "Ver detalles"
+  },
+  "UrnsPage": {
+    "heroBadge": "Urnas de Cremación",
+    "heroTitle": "Colección de Urnas Conmemorativas de Cenizas",
+    "heroSubtitle": "Ofrecemos una variedad de urnas de mármol, maderas nobles y metales, certificadas según las normativas internacionales de transporte.",
+    "trustAirportCompliant": "Aprobado para vuelos y viajes",
+    "trustSealedCertified": "Sellado hermético y certificados",
+    "trustPremiumMaterials": "Materiales nobles y mármol prémium",
+    "searchPlaceholder": "Buscar urnas por nombre...",
+    "filterAll": "Todas las urnas",
+    "filterWithPrice": "Con precio",
+    "filterQuote": "Bajo presupuesto",
+    "requestQuoteBtn": "Solicitar presupuesto",
+    "viewDetailsBtn": "Ver detalles",
+    "noProductsFound": "No se encontraron urnas que coincidan con su búsqueda.",
+    "ctaTitle": "¿Necesita asesoramiento para elegir la urna de cremación adecuada?",
+    "ctaDesc": "Nuestro equipo está disponible 24/7 para ayudarle en su elección y emitir los certificados de sellado para vuelos.",
+    "ctaButton": "Llámenos ahora"
+  },
+  "UrnDetail": {
+    "breadcrumbUrns": "Urnas de Cremación",
+    "descriptionTitle": "Descripción y Características",
+    "specificationsTitle": "Especificaciones Certificadas",
+    "requestQuoteBtn": "Solicitar Presupuesto",
+    "airportBadge": "Aprobado para transporte aéreo internacional",
+    "flightApproved": "Aprobado para Vuelo",
+    "materialLabel": "Material",
+    "capacityLabel": "Capacidad",
+    "sealingLabel": "Tipo de sellado",
+    "availableColors": "Acabados disponibles",
+    "dimensionsTitle": "Dimensiones",
+    "whatsappBtn": "Consultar por WhatsApp",
+    "requestBtn": "Solicitar Urna Ahora",
+    "quoteNotice": "Las urnas están certificadas y cumplen con las normativas internacionales de aviación."
+  }
+}

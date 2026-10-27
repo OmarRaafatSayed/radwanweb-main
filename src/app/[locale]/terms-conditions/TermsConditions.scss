@@ -1,0 +1,171 @@
+.terms-conditions-page {
+    background-color: #f8fafc;
+    min-height: 100vh;
+
+    .terms-hero {
+        background-color: var(--main-color, #0a2240);
+        padding-block: 150px 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        padding-inline: 20px;
+
+        @media (max-width: 768px) {
+            padding-block: 110px 40px;
+        }
+
+        .page-title {
+            font-size: 38px;
+            font-weight: 800;
+            color: #ffffff;
+
+            @media (max-width: 768px) {
+                font-size: 26px;
+            }
+        }
+
+        .page-subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 650px;
+            line-height: 1.7;
+
+            @media (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+
+        .last-updated {
+            font-size: 12.5px;
+            font-weight: 700;
+            color: var(--accent-gold, #f4b35a);
+            background: rgba(244, 179, 90, 0.1);
+            padding: 4px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(244, 179, 90, 0.2);
+            margin-top: 6px;
+        }
+    }
+
+    .terms-body-section {
+        max-width: 1200px;
+        margin-inline: auto;
+        padding-block: 60px 90px;
+        padding-inline: 24px;
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: 40px;
+        align-items: stretch;
+
+        @media (max-width: 991px) {
+            grid-template-columns: 1fr;
+            padding-block: 40px 60px;
+            padding-inline: 16px;
+            gap: 24px;
+        }
+
+        .terms-sidebar {
+            height: 100%;
+
+            @media (max-width: 991px) {
+                display: none;
+            }
+
+            .sticky-nav {
+                position: sticky;
+                top: 110px;
+                background: #ffffff;
+                border: 1px solid #e2e8f0;
+                border-radius: 16px;
+                padding: 24px 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+
+                .nav-title {
+                    font-size: 13px;
+                    font-weight: 800;
+                    color: var(--accent-gold, #f4b35a);
+                    text-transform: uppercase;
+                    border-bottom: 1px solid #f1f5f9;
+                    padding-bottom: 10px;
+                }
+
+                .nav-links {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    .nav-link {
+                        font-size: 13.5px;
+                        font-weight: 600;
+                        color: #64748b;
+                        text-decoration: none;
+                        transition: all 0.25s ease;
+                        line-height: 1.4;
+
+                        &:hover {
+                            color: var(--main-color, #0a2240);
+                            transform: translateX(-4px);
+
+                            :global([dir="ltr"]) & {
+                                transform: translateX(4px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .terms-content-flow {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .terms-card-block {
+                background: #ffffff;
+                border: 1px solid #e2e8f0;
+                border-radius: 18px;
+                padding: 32px;
+                box-shadow: 0 4px 18px rgba(0, 0, 0, 0.02);
+                scroll-margin-top: 110px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    border-color: rgba(10, 34, 64, 0.15);
+                    box-shadow: 0 8px 25px rgba(10, 34, 64, 0.05);
+                }
+
+                @media (max-width: 768px) {
+                    padding: 20px;
+                    border-radius: 14px;
+                }
+
+                .block-title {
+                    font-size: 20px;
+                    font-weight: 800;
+                    color: var(--main-color, #0a2240);
+                    margin-bottom: 12px;
+
+                    @media (max-width: 768px) {
+                        font-size: 17px;
+                    }
+                }
+
+                .block-paragraph {
+                    font-size: 15px;
+                    color: #475569;
+                    line-height: 1.85;
+
+                    @media (max-width: 768px) {
+                        font-size: 13.5px;
+                        line-height: 1.7;
+                    }
+                }
+            }
+        }
+    }
+}

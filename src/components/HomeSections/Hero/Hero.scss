@@ -1,0 +1,303 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-color: var(--main-color);
+    overflow: hidden;
+
+    @media (max-width: 1023px) {
+        height: auto !important;
+        min-height: initial !important;
+    }
+}
+
+.hero-swiper {
+    width: 100%;
+    height: 100%;
+
+    .swiper-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        opacity: 0 !important;
+        pointer-events: none;
+        transition: opacity 0.7s ease-in-out;
+
+        &.swiper-slide-active {
+            opacity: 1 !important;
+            pointer-events: auto;
+        }
+    }
+}
+
+.hero-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 1023px) {
+        height: auto !important;
+        padding-block: 120px 180px;
+    }
+}
+
+.slide-bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    .hero-image-render {
+        object-fit: cover !important;
+        object-position: center !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .slide-overlay-mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom,
+                rgba(10, 34, 64, 0.85) 0%,
+                rgba(10, 34, 64, 0.6) 50%,
+                rgba(10, 34, 64, 0.95) 100%);
+    }
+}
+
+.hero-layout-container {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+
+    @media (max-width: 1023px) {
+        height: auto !important;
+        padding-top: 0;
+    }
+}
+
+.hero-main-content {
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    html[lang="ar"] & {
+        text-align: right;
+    }
+
+    html[lang="en"] &,
+    html[lang="ru"] &,
+    html[lang="fr"] &,
+    html[lang="es"] & {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 42px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 1.35;
+        margin: 0;
+
+        @media (max-width: 1023px) {
+            font-size: 28px;
+        }
+
+        @media (max-width: 480px) {
+            font-size: 23px;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.6;
+        margin: 0;
+
+        @media (max-width: 1023px) {
+            font-size: 14px;
+        }
+    }
+}
+
+.hero-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 12px;
+
+    @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 12px 28px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 4px;
+        transition: var(--transition-smooth);
+        white-space: nowrap;
+    }
+
+    .hero-btn-gold {
+        background-color: var(--accent-gold);
+        color: var(--main-color);
+        box-shadow: 0 4px 14px rgba(197, 160, 89, 0.2);
+
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+
+    .hero-btn-outline {
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #ffffff;
+
+        &:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+    }
+}
+
+.hero-bottom-features {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(10, 34, 64, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+    @media (max-width: 1023px) {
+        position: relative !important;
+        background: var(--main-color);
+        margin-top: -99px;
+    }
+}
+
+.features-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 56px;
+    padding-block: 36px;
+    width: 100%;
+
+    @media (max-width: 1023px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding-block: 24px;
+    }
+
+    @media (max-width: 640px) {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
+.feature-item-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: flex-start;
+}
+
+.feature-item-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background: rgba(197, 160, 89, 0.08);
+    border: 1px solid rgba(197, 160, 89, 0.15);
+    color: var(--accent-gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.feature-item-text {
+    h3 {
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 3px;
+    }
+
+    p {
+        font-size: 12px;
+        color: #94a3b8;
+    }
+}
+
+.hero-dots-indicator {
+    position: absolute;
+    bottom: 140px;
+    width: 100%;
+    z-index: 10;
+
+    @media (max-width: 1023px) {
+        bottom: 140px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.hero-pagination.swiper-pagination-bullets {
+    display: flex;
+    gap: 8px;
+
+    html[lang="ar"] & {
+        justify-content: flex-end;
+    }
+
+    html[lang="en"] &,
+    html[lang="ru"] &,
+    html[lang="fr"] &,
+    html[lang="es"] & {
+        justify-content: flex-end;
+    }
+
+    @media (max-width: 1023px) {
+        justify-content: center !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 4px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.2);
+        opacity: 1;
+        transition: var(--transition-smooth);
+
+        &.swiper-pagination-bullet-active {
+            background: var(--accent-gold);
+            width: 24px;
+        }
+    }
+}

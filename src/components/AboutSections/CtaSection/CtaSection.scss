@@ -1,0 +1,167 @@
+.cta-section-about {
+    position: relative;
+    background-color: var(--bg-site);
+    padding-bottom: 0 !important;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 130px;
+
+    @media (max-width: 991px) {
+        padding-top: 65px;
+        margin-bottom: 70px;
+    }
+
+    @media (max-width: 768px) {
+        padding-top: 50px;
+    }
+
+    .cta-dots-bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(rgba(10, 34, 64, 0.02) 1.2px, transparent 1.2px);
+        background-size: 24px 24px;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    .cta-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-inline: auto;
+        padding-inline: 24px;
+        position: relative;
+        z-index: 5;
+
+        @media (max-width: 768px) {
+            padding-inline: 16px;
+        }
+    }
+
+    .cta-glass-card {
+        background: linear-gradient(135deg, var(--main-color) 0%, #0d294d 100%);
+        border: 1px solid rgba(244, 179, 90, 0.15);
+        border-radius: 24px;
+        padding: 60px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 15px 45px rgba(10, 34, 64, 0.2);
+
+        @media (max-width: 768px) {
+            padding: 45px 20px;
+            border-radius: 16px;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1.2px, transparent 1.2px);
+            background-size: 20px 20px;
+            mask-image: radial-gradient(circle, black 40%, transparent 100%);
+            -webkit-mask-image: radial-gradient(circle, black 40%, transparent 100%);
+            pointer-events: none;
+        }
+
+        .cta-badge {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent-gold);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background-color: rgba(244, 179, 90, 0.08);
+            padding: 6px 18px;
+            border-radius: 20px;
+            border: 1px solid rgba(244, 179, 90, 0.2);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .cta-main-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.3;
+            max-width: 750px;
+            margin-bottom: 16px;
+
+            @media (max-width: 768px) {
+                font-size: 24px;
+            }
+        }
+
+        .cta-desc {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.7;
+            max-width: 600px;
+            margin-bottom: 35px;
+
+            @media (max-width: 768px) {
+                font-size: 14px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .cta-actions-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            width: 100%;
+
+            @media (max-width: 480px) {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .cta-btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 14px 32px;
+                font-size: 15px;
+                font-weight: 700;
+                border-radius: 8px;
+                transition: var(--transition-smooth);
+                cursor: pointer;
+                width: auto;
+
+                @media (max-width: 480px) {
+                    width: 100%;
+                }
+
+                &.primary-btn {
+                    background-color: var(--accent-gold);
+                    color: var(--main-color);
+                    box-shadow: 0 4px 14px rgba(244, 179, 90, 0.25);
+                    border: 1px solid transparent;
+
+                    &:hover {
+                        background-color: #ffffff;
+                        color: var(--main-color);
+                        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);
+                    }
+                }
+
+                &.secondary-btn {
+                    background-color: rgba(255, 255, 255, 0.04);
+                    color: #ffffff;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.08);
+                        border-color: var(--accent-gold);
+                        color: var(--accent-gold);
+                    }
+                }
+            }
+        }
+    }
+}

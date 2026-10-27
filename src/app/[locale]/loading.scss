@@ -1,0 +1,170 @@
+.global-loader-wrapper {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    background-color: var(--main-color, #0a2240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .loader-backdrop-glow {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        background: radial-gradient(circle, rgba(244, 179, 90, 0.15) 0%, rgba(10, 34, 64, 0) 70%);
+        border-radius: 50%;
+        pointer-events: none;
+        animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    .loader-content-box {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+    }
+
+    /* أنيميشن الشعار */
+    .logo-pulse-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo-wrapper {
+            position: relative;
+            z-index: 2;
+            animation: floatLogo 2.5s infinite ease-in-out;
+            filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.3));
+        }
+
+        .pulse-ring {
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: rgba(244, 179, 90, 0.08);
+            border: 1px solid rgba(244, 179, 90, 0.2);
+            animation: ripple 2s infinite ease-out;
+            z-index: 1;
+        }
+    }
+
+    /* مؤشر الدوران الذهبي (Spinner) */
+    .custom-spinner {
+        width: 48px;
+        height: 48px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .spinner-arc {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.08);
+            border-top-color: var(--accent-gold, #f4b35a);
+            border-right-color: var(--accent-gold, #f4b35a);
+            animation: spin 0.85s linear infinite;
+        }
+    }
+
+    /* نقاط التحميل */
+    .loading-dots-text {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        .dot {
+            width: 7px;
+            height: 7px;
+            background-color: var(--accent-gold, #f4b35a);
+            border-radius: 50%;
+            display: inline-block;
+            animation: bounceDot 1.4s infinite ease-in-out both;
+
+            &:nth-child(1) {
+                animation-delay: -0.32s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: -0.16s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: 0s;
+            }
+        }
+    }
+}
+
+/* Keyframes للأنيميشن */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes floatLogo {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-6px) scale(1.03);
+    }
+}
+
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: scale(1.15);
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
+@keyframes bounceDot {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+        opacity: 0.3;
+    }
+
+    40% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
